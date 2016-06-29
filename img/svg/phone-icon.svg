@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="29px" height="27px" viewBox="0 0 29 27" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>4003769F-0F9F-49DA-B259-FC59B6F51110</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <polygon id="path-1" points="19.9607679 16.4860993 20.5805822 0.353959969 0.325682382 11.4340281 4.81144832 24.8599487"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.6">
+        <g id="rvbar_v2.1" transform="translate(-296.000000, -351.000000)">
+            <g id="Group-26" transform="translate(278.000000, 336.000000)">
+                <g id="phone_icon" transform="translate(6.000000, 11.000000)">
+                    <g id="Layer_1">
+                        <path d="M36.719603,5.46689304 L28.7295285,5.46689304 C27.5976013,5.46689304 26.7320099,6.3866174 26.7320099,7.58933387 L26.7320099,27.3987816 C26.7320099,28.53075 27.5976013,29.5212224 28.7295285,29.5212224 L36.719603,29.5212224 C37.8515302,29.5212224 38.7171216,28.53075 38.7171216,27.3987816 L38.7171216,7.58933387 C38.7171216,6.3866174 37.8515302,5.46689304 36.719603,5.46689304 L36.719603,5.46689304 Z M32.7245658,28.8137421 C31.9921423,28.8137421 31.3928867,28.1770099 31.3928867,27.3987816 C31.3928867,26.6205533 31.9921423,25.983821 32.7245658,25.983821 C33.4569892,25.983821 34.0562448,26.6205533 34.0562448,27.3987816 C34.0562448,28.1770099 33.4569892,28.8137421 32.7245658,28.8137421 L32.7245658,28.8137421 Z M37.3854425,25.2763408 L28.063689,25.2763408 L28.063689,9.00429442 L37.3854425,9.00429442 L37.3854425,25.2763408 L37.3854425,25.2763408 Z" id="Shape" fill="#FFFFFF" transform="translate(32.724566, 17.494058) rotate(14.000000) translate(-32.724566, -17.494058) "></path>
+                        <g id="Oval-7-+-Oval-7-Copy-+-Oval-7-Copy-2-Mask" transform="translate(14.279657, 15.213313) rotate(-17.000000) translate(-14.279657, -15.213313) translate(3.779657, 2.713313)">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <g id="Mask"></g>
+                            <ellipse id="Oval-7" stroke="#FFFFFF" stroke-width="2" stroke-linecap="square" mask="url(#mask-2)" cx="19.8014888" cy="16.4006791" rx="10.4218362" ry="10.9337861"></ellipse>
+                            <ellipse id="Oval-7-Copy" stroke="#FFFFFF" stroke-width="2" stroke-linecap="square" mask="url(#mask-2)" cx="19.8014888" cy="16.4006791" rx="7.29528536" ry="7.65365025"></ellipse>
+                            <ellipse id="Oval-7-Copy-2" stroke="#FFFFFF" stroke-width="2" stroke-linecap="square" mask="url(#mask-2)" cx="19.8014888" cy="16.4006791" rx="4.16873449" ry="4.37351443"></ellipse>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

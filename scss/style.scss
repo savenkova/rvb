@@ -1,0 +1,370 @@
+@font-face {
+  font-family: 'Chupada';
+  src: url('../fonts/Chupada.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Muller';
+  src: url('../fonts/MullerRegular.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: 'Muller';
+  background: url(../img/bg.png) no-repeat 0 0 #48247c;
+  -webkit-background-size: contain;
+  background-size: contain;
+  color: #fbfbfb;
+}
+
+a, a:active, a:focus {
+  text-decoration: none;
+  color: #fbfbfb;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 0;
+  li {
+    font-size: 1rem;
+    cursor: default;
+  }
+}
+
+img {
+  /* тут должны появиться какие-то сиреневые фильтры для изображений, цитирую: "Чтобы они слились в экстазе с фоном и всей стилистикой"*/
+}
+
+.title {
+  font-family: 'Chupada';
+  font-size: 1.75rem;
+  font-weight: normal;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.wrapper {
+  min-width: 320px;
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 .75rem;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.one.column { width: 11.11% }
+.two.columns { width: 22.22% }
+.three.columns { width: 33.33% }
+.six.columns { width: 66.66% }
+
+.container:after, .clearfix {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+h2.title {
+  margin: 0;
+  padding-bottom: 1.25rem;
+  font-size: 2.25rem;
+}
+
+div.title {
+  font-size: 1.75rem;
+}
+
+li span {
+  font-family: 'Muller';
+  font-size: .6875rem;
+  font-weight: normal;
+  line-height: 1;
+  text-transform: uppercase;
+  opacity: .69;
+}
+
+.vk-link {
+  margin: 0 .95rem;
+}
+
+/* header */
+
+header .event-nav.container {
+  padding: 3rem 0 2rem;
+} 
+
+.logo {
+  float: left;
+  margin-top: 1.0625rem;
+  line-height: 6rem;
+  background: transparent url(../img/svg/logo-white.svg) 0 0 no-repeat;
+  background-size: contain;
+  opacity: 1;
+  text-indent: -9999px;
+}
+.event-list li {
+  float: left;
+  position: relative;
+  padding: 1.0625rem 0 1.125rem .6875rem;
+  .event-title {
+    padding-top: 1.875rem;
+    margin-right: .5rem;
+  }
+}
+.week-day { letter-spacing: .0625rem; }
+.today-item {
+  border-bottom-left-radius: .3rem;
+  border-bottom-right-radius: .3rem;
+  border-left: .1rem dashed rgba(251, 251, 251, .4);
+  border-right: .1rem dashed rgba(251, 251, 251, .4);
+  border-bottom: .1rem dashed rgba(251, 251, 251, .4);
+}
+.today-item::after {
+  position: absolute;
+  top: -1.3rem;
+  left: 0;
+  content: 'сегодня';
+  width: 100%;
+  padding: .25rem .25rem .25rem .6875rem ;
+  font-size: .625rem;
+  letter-spacing: .0625rem;
+  background-color: #7139a0;
+  box-shadow: 0 0 0 .1rem #7139a0;
+  color: #fbfbfb;
+  opacity: .7;
+  text-transform: uppercase;
+}
+
+.callback {
+  float: left;
+  border: 1px solid #ffffff;
+  border-radius: .18rem;
+  background-color: rgba(83, 55, 198, 0.5);
+  input {
+    text-transform: uppercase;
+    font-size: 1rem;
+    border: none;
+    background-color: transparent;
+    outline: none;
+  }
+  input[type="tel"] {
+    position: relative;
+    width: 20rem;
+    padding: 1.375rem 3.75rem .95rem;
+    font-size: .875rem;
+    letter-spacing: .0625rem;
+    color: #fbfbfb;
+    background: url("../img/svg/phone-icon.svg") no-repeat 1.375rem .875rem;
+  }
+  ::-webkit-input-placeholder, :-moz-placeholder, ::-moz-placeholder, :-ms-input-placeholder {
+    color: rgba(251, 251, 251, .4);
+  }
+  input[type="submit"] {
+    padding: 1.125rem 1.1rem .95rem;
+    letter-spacing: .125rem;
+    color: #fbfbfb;
+    cursor: pointer;
+  }
+}
+
+.header-contacts {
+  float: right;
+  padding-top: .2rem;
+  .contact, .social {
+    float: left;
+  }
+  .social {
+    margin-left: .9375rem;
+  }
+  .telephone {
+    font-size: 1.5rem;
+    letter-spacing: .125rem;
+    line-height: 1.875rem;
+  }
+  label {
+    font-size: .6875rem;
+    letter-spacing: .0625rem;
+    line-height: 1.36;
+    text-transform: uppercase;
+  }
+  img.icon {
+    width: 3.0625rem;
+    height: 3.0625rem;
+  }
+}
+
+/* content */
+
+main {
+  .container {
+    padding-top: 3.25rem;
+  }
+  .intro.container {
+    .menu.columns {
+      float: left;
+      padding-right: 1.375rem;
+    }
+    .menu-block, .poster {
+      position: relative;
+      font-size: 0;
+    }
+    .title {
+      position: absolute;
+      padding-bottom: 0;
+    }
+    .menu-block.kitchen {
+      margin-bottom: 1.375rem;
+      .title {
+        right: 5%;
+        bottom: 12%;
+      }
+    }
+    .menu-block.bar {
+      .title {
+        top: 15%;
+        left: 20%;
+        width: 15%;
+      }
+    }
+    .menu-block img {
+      width: 100%;
+    }
+    .poster.columns {
+      float: right;
+      text-align: center;
+      .poster-block {
+        position: relative;
+        display: inline-block;
+        padding: 1.375rem 1.5rem 0 1.5rem;
+        border: .15rem dashed #ffffff;
+        .title {
+          bottom: 0;
+          left: 18%;
+        }
+        &:after {
+          position: absolute;
+          content: '';
+          top: -.7rem;
+          right: -2.5rem;
+          width: 3.5rem;
+          height: 3.4rem;
+          background: url("../img/svg/scissors-icon.svg") no-repeat 0 0;
+        }
+      }
+    }
+  }
+
+  .special-offers.container {
+
+    .special-item {
+      float: left;
+      width: auto;
+      img {
+        width: 100%;
+      }
+    }
+
+  }
+
+  .gallery.container {
+
+  }
+
+  .vacancy.container {
+    .vacancy-row {
+      width: 100%;
+      padding: 2.1875rem 0;
+      border-top: 1px dotted #ffffff;
+      border-bottom: 1px dotted #ffffff;
+    }
+    .vacancy-list li{
+      float: left;
+      .vacancy-title {
+        margin: 0 1.5rem .1875rem 0;
+      }
+      span {
+        font-size: .875rem;
+      }
+    }
+    .illustration {
+      float: right;
+    }
+  }
+}
+
+/* footer */
+
+footer {
+  .container {
+    padding: 2.3rem 0 3.6rem;
+  }
+  .map {
+    width: 100%;
+    height: 23.75rem;
+    margin-bottom: 1.125rem;
+    background: #fbfbfb;
+  }
+  .three.columns {
+    float: left;
+  }
+  .two.columns {
+    float: right;
+  }
+  .contact-title {
+    float: left;
+  }
+  .contact-info {
+    float: right;
+    width: 80%;
+    padding-right: 1.5rem;
+    font-size: 0.875rem;
+    line-height: 1.07;
+    color: #fbfbfb;
+    opacity: .7;
+  }
+  .telephone {
+    float: right;
+    font-size: 1.75rem;
+    color: #fbfbfb;
+    opacity: .7;
+  }
+  .social {
+    display: inline-block;
+    margin-top: -.25rem;
+    font-size: 0;
+  }
+  img.icon {
+    width: 2.5625rem;
+    height: 2.5625rem;
+  }
+}
+
+@media (max-width: 990px) {
+  html { font-size: 14px }
+  .one.column { width: 33.33333% }
+  .two.columns { width: 33.33% }
+  .six.columns { width: 100% }
+  .three.columns { width: 100%; float: none }
+  
+  .three.columns.poster {
+    float: none;
+    margin: 0 auto;
+  }
+}
+
